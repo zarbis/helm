@@ -1,4 +1,4 @@
-FROM alpine/helm:2.14.0
+FROM alpine/helm:2.14.3
 
 ENV HELM_HOME /helm
 RUN mkdir $HELM_HOME
